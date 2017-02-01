@@ -1,0 +1,33 @@
+.thumbs img {
+  z-index: 1 !important;
+}
+.thumbs > img {
+  height: 250px;
+}
+
+
+.square img {
+  height: 185px !important;
+  width: 100% !important;
+}
+.ih-item.square {
+  height: 200px !important;
+  width: 250px !important;
+}
+
+.ih-item.circle.effect1 .spinner {
+  height: 225px;
+  width: 225px;
+}
+.img-hover-holder-4.bmargin {
+  left: 40px;
+  position: relative;
+}
+.square2style {
+  left: 50px;
+  position: relative;
+}
+#square-box {
+  height: 190px !important;
+  width: 255px !important;
+}

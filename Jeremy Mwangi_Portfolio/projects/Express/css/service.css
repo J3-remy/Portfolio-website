@@ -1,0 +1,182 @@
+body{
+	background-color: black;
+	overflow-x:  hidden;
+}
+#container{
+	max-width: 1024px;
+	min-height: 0 auto;
+	background-color: #0575af;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+#wrapper{
+	max-width: 980px;
+	min-height: 0 auto;
+	margin: 0 auto;
+	background-color:#64a9cc;
+	margin-top: 20px;
+}
+#logo{
+	margin-top: 10px;
+	position: relative;top: 5px;
+}
+#navi{
+	max-width: 980px;
+	margin: 0 auto;
+	min-height: 41px;
+	background-repeat:no-repeat;
+}
+#link a{
+	color: #fff;
+}
+#link a:hover{
+	background:none;
+}
+.mybtn{
+	background-color: #fff;
+}
+#active{
+	color: #003366;
+	background-color: #005588;
+	border-radius: 20px;
+}
+#abt{
+	background-color: #005588;
+	border-radius: 20px;
+}
+#sv{
+	background-color: #005588;
+	border-radius: 20px;
+}
+#cf{
+	background-color: #005588;
+	border-radius: 20px;
+}
+#cnt{
+	background-color: #005588;
+	border-radius: 20px;
+}
+
+#head{
+	max-width: 942px;
+	min-height: 330px;
+	margin: 0 auto;
+	background-color: #005588;
+	border-radius: 20px;
+	padding-top: 35px;
+}
+#bn{
+	max-width: 942px;
+	min-height: 260px;
+	background-image: url(../img/bn2.png);
+	margin: 0 auto;
+
+}
+#main{
+	
+	margin: 0 auto;
+}
+#line{
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#sc1{
+	margin-left:10px;
+}
+#wall{
+	margin-left:;
+}
+#sec3{
+	max-width: 1024px;
+	min-height:0 auto;
+	margin: 0 auto;
+	background-color: #005588;
+	margin-top: 10px;
+	border-radius: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#sec4{
+	max-width: 1024px;
+	min-height:0 auto;
+	margin: 0 auto;
+	background-color: #005588;
+	margin-top: 10px;
+	border-radius: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#texx{
+	margin: 0 auto;
+}
+#rw{
+	margin: 0 auto;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+#cl1{
+	max-width: 310px;
+	min-height: 430px;
+	background-color: #005588;
+	border-radius: 20px;
+	margin-right: 10px;
+}
+#cl2{
+	max-width: 310px;
+	min-height: 430px;
+	background-color: #005588;
+	border-radius: 20px;
+
+	
+}
+#cl3{
+	max-width: 310px;
+	min-height: 430px;
+	background-color: #005588;
+	border-radius: 20px;
+	margin-left: 10px;
+	
+}
+#ff{
+	margin-left: 45px;
+}
+#foot{
+	max-width: 980px;
+	min-height: 105px;
+	margin-top: 20px;
+	background-color: #64a9cc;
+	border-top: dashed thin #005588;
+}
+#btm{
+margin-left: 300px;
+margin-top: 20px;
+}
+#foot li{
+	list-style: none;
+	color: #fff;
+}
+.soc{
+	max-width: 100px;
+	float: right;
+	padding-right: 25px;
+}
+@media screen and (max-width: 425px) {
+    #main{
+    	
+    }
+    #rightabt{
+    	margin-top: 20px;
+    }
+    .spc{
+    	padding-top: 20px;
+    }
+    #foot{
+	
+	
+	padding-bottom: 10px;
+	
+}
+	#btm{
+		margin-top: 5px;
+		float: left;
+	}

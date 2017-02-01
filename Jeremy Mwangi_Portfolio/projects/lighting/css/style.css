@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Meltix';
+  src: local('Meltix'), local('Meltix'), url('../fonts/Meltix.otf') format('OpenType');
+  src:url('../fonts/Meltix.otf') format('OpenType');
+  }
+body{
+  background-color:#252525;
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+  overflow:hidden;
+  background-image: url(../img/logoo2.png);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+svg{
+  position:absolute;
+  left:50%; top:25px;
+  -webkit-transform:translate(-50% , 0%);
+  transform:translate(-50% , 0%);
+  overflow:visible;
+}
+#myLamp{
+  cursor: pointer;
+  background-image: url(../img/logoo2.png);
+}
+
+#text{
+  position:absolute;
+  left:50%; top:390px;
+  -webkit-transform:translate(-50%,0%);
+          transform:translate(-50%,0%);
+  font-size:7vw;
+  white-space: nowrap;
+  font-family: Meltix;
+  color:rgba(0,145,145,0.2);
+  text-shadow:0px 0px 20px #000 , 0px 1px 20px #000 , -1px -3px 0 rgba(255,255,255,0.1);
+}
+#picha{
+  position:absolute;
+  left:50%; top:390px;
+  -webkit-transform:translate(-50%,0%);
+          transform:translate(-50%,0%);
+  font-size:7vw;
+  white-space: nowrap;
+  font-family: Meltix;
+  color:rgba(0,145,145,0.2);
+  text-shadow:0px 0px 20px #000 , 0px 1px 20px #000 , -1px -3px 0 rgba(255,255,255,0.1);
+}
+
+.desc{
+  position:absolute;
+  top:10px;left:10px;
+  color:#eee;
+  font-size:17px;
+  font-family:arial;
+}
+
+@media(max-width: 700px) {
+  #text{ top:410px; font-size:10vw; }
+}
+
+
+#links{position:absolute;bottom:0px;left:0px;width:100%;height:50px;font-size:13px;font-family:tahoma;color:#fff;}
+#links a{text-decoration:none;font-size:2.3em;color:#fff;}
+#twitter{position:absolute;bottom:15px;right:20px;}
+#pens{position:absolute;bottom:15px;left:20px;}

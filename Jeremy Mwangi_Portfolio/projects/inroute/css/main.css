@@ -1,0 +1,335 @@
+/*-----default---*/
+*{
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+}
+a{
+  color: #fff;
+}
+p{
+  color: #fff;
+}
+a:hover{
+  color: #00ffff;
+  text-decoration: none;
+}
+body{
+}
+
+/*--loading page---*/
+.spinner {
+  margin: 325px auto 0px;
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+}
+.spinner > div {
+  width: 50px;
+  height: 50px;
+  background-color: #336633;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+  background-color: #CC3333;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+  background-color: #ff9933;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+video{
+	width: 100%;
+	position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  background-color: black;
+  opacity: ;
+}
+#skip{
+  margin: 0 auto;
+  width: 15%;
+  position: fixed;
+  border: 2px solid #cc6600;
+  padding: 0px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px; 
+}
+#skip:hover{
+  border: 2px solid #fff;
+}
+#skip:hover a{
+  color: #cc6600;
+}
+
+
+/*---start navigation---*/
+#menu-button {
+  border: 2px solid green;
+  background: transparent;
+  padding: 14px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 20px;
+  transition: background 750ms ease-in-out;
+  user-select: none;
+}
+
+.menu-open #menu-button {
+  background: #cc6600;
+}
+
+.hamburger {
+  position: relative;
+  width: 25px;
+  height: 20px;
+  transition: transform 750ms ease-in-out;
+}
+
+#menu-button:active .hamburger {
+  transition: transform 50ms;
+  transform: scale(.95);
+}
+
+.hamburger::before, .hamburger::after, .hamburger .inner {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 5px;
+  background: #339900;
+  transform-origin: 100% 50%;
+  transition: all 750ms ease-in-out;
+}
+.hamburger::before {
+  top: -1px;
+}
+.hamburger .inner {
+  top: 9px;
+  transform-origin: 50% 50%;
+}
+.hamburger::after {
+  top: 19px;
+}
+
+.menu-open .hamburger {
+  transform: rotateY(-180deg);
+}
+.menu-open #menu-button:active .hamburger {
+  transform: scale(.95) rotateY(-180deg);
+}
+
+.menu-open .hamburger::before,
+.menu-open .hamburger::after,
+.menu-open .hamburger .inner {
+  background: #fff;
+}
+
+.menu-open .hamburger::before {
+  transform: translate3d(-4px, 1px, 0) rotateZ(-45deg);  
+}
+.menu-open .hamburger .inner {
+  transform: rotateY(-90deg); 
+  transition: transform 375ms, background-color 750ms ease-in-out;
+}
+.menu-open .hamburger::after {
+  transform: translate3d(-4px, -1px, 0) rotateZ(45deg);  
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 430px;
+  bottom: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.menu-open nav {
+  animation-duration: 10s;
+  animation-name: wind;
+  animation-iteration-count: infinite;
+}
+
+nav::before {
+  content: '';
+  position: absolute;
+  border-right: 5px solid #cc6600;
+  top: -10px;
+  bottom: -10px;
+  left: -10px;
+  right: 0;
+  background: rgba(255, 0, 0, .2);
+  transform: rotateY(90deg);
+  transition: transform 350ms;
+  transform-origin: 0 0;
+  transition-delay: 100ms;
+}
+.menu-open nav::before {
+  transform: none;
+  transition-delay: 0;
+}
+
+nav ul {
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  pointer-events: all;
+}
+
+nav li {
+  display: block;
+  overflow: hidden;
+  font-family: 'Helvetica Neue Light', Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  line-height: 56px;
+  opacity: 0;
+  text-align: center;
+  padding: 6px 0;
+  transform: rotateY(90deg) rotateZ(-15deg);
+  transition: transform 350ms, opacity 250ms;
+  transform-origin: 0 0;
+}
+
+nav li a {
+  color: #ff6600;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  left: 5px;
+  text-decoration: none;
+}
+
+nav li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 220px;
+  bottom: 0;
+  height: 2px;
+  opacity: .5;
+  background: #cc3300;
+  transform: translateX(-220px);
+  transition: all 200ms 50ms;
+}
+nav li a:hover::after {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 400ms 100ms;
+}
+nav li a:hover{
+  color: #339900;
+}
+
+.menu-open nav li {
+  opacity: 1;
+  transform: none;
+}
+
+nav li:nth-of-type(1) {
+  transition-delay: 400ms;
+}
+nav li:nth-of-type(2) {
+  transition-delay: 300ms;
+}
+nav li:nth-of-type(3) {
+  transition-delay: 200ms;
+}
+nav li:nth-of-type(4) {
+  transition-delay: 100ms;
+}
+nav li:nth-of-type(5) {
+  transition-delay: 0;
+}
+.menu-open nav li:nth-of-type(1) {
+  transition-delay: 0;
+}
+.menu-open nav li:nth-of-type(2) {
+  transition-delay: 100ms;
+}
+.menu-open nav li:nth-of-type(4) {
+  transition-delay: 300ms;
+}
+.menu-open nav li:nth-of-type(5) {
+  transition-delay: 400ms;
+}
+
+@keyframes wind {
+  0%, 100% {
+    transform: none; 
+  }
+  20% {
+    transform: rotateX(5deg) rotateY(8deg); 
+  }
+  40% {
+    transform: rotateX(-2deg); 
+  }
+  60% {
+    transform: rotateY(-3deg) rotateX(7deg); 
+  }
+  80% {
+    transform: rotateY(-4deg) rotateX(2deg); 
+  }
+}
+/*----end of nav----*/
+88888888888888888888888888888888888888888888888888888888888
+/*--home page--*/
+.container{
+  margin: 0px;
+}
+#home{
+  width: 103%;
+}
+#bgimg{
+  background-image: url('../img/phonex.png');
+  width: 100%;
+  background-repeat: no-repeat;
+}
+#bgimg p{
+  margin-top: 100px;
+}
+#em{
+  margin-bottom: 150px;
+}
+
+/*---slide navigation---*/
+.item img{
+  width: 100%;
+}
+.carousel-caption{
+  text-align: left;
+  margin: 0px 0px 250px -130px;
+  color: #000;
+}
+
+888888888888888888888888888888888888888888888888888888888888
+/*-----side nav---*/

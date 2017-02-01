@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Legendary beat</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width", initial-scale=1>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+	</head>
+	<body>
+	<div id="sly" class="container">
+	<div id="home">
+		<header id="top">
+			<div class="row">
+				<div class="col-md-1">
+					<img src="../img/logo.png">
+				</div>
+				<div class="col-md-11">
+					<nav class="navbar navbar-default">
+						<ul id="navi" class="nav navbar-nav">
+							<li><a href="#home">HOME</a></li>
+							<li><a href="#events">EVENTS</a></li>
+							<li><a href="#about">ABOUT</a></li>
+							<li><a href="#gallery">GALLERY</a></li>
+							<li><a href="#team">TEAM</a></li>
+							<li><a href="#contact">CONTACT US</a></li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+		</header>
+		<section>
+			<div id="slider"></div>
+		</section>
+	</div>	
+	
+
+	</div>
+	</div>
+	<div id="wrapper2">
+<section id="sec">
+	<div id="event" class="row">
+		<div class="col-md-4 col-sm-4 col-xs-12" >
+			<img src="../img/p.jpg" class="img-responsive">
+			<p> Botswana gets ready to celebrate its Golden Jubilee as an independent nation, Thursday Nite Live @ Choices is proud to partner with Cool Waters Jazz & Roots Festival 2016 in presenting direct from Botswana Guitarist and Harmonica player Kabo Leburu.
+
+This concert is made possible by the support of Letshego Kenya Limited and The High Commission of Botswana with the added support of UP Nairobi – Nairobi’s Urban Perspective.</p>
+
+<p>Cool Waters Jazz & Roots Festival is Nairobi’s boutique jazz festival for music lovers who are open to discover new voices, seasoned talent and unique sounds. We celebrate the values of culture, innovation and improvisation that Jazz and Roots music offer the world.Teetering on the edge of virtuosity is a guitarist cum harmonica (or ‘harp’ as some fondly call it) player, KABO LEBURU. A self-taught musician who graduated from The University of Botswana with a Bachelor’s degree in Mechanical engineering, he won THE BEST LIVE ARTIST in PRESIDENT’S NATIONAL MUSIC COMPETITIONS 2014 and was nominated for the BEST AFRO-JAZZ in the MASCOM-BOMU 2008-2009 Awards.
+llentesque in.pulvinar</p> 
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-12" >
+		<img src="../img/p.jpg" class="img-responsive">
+			<p>Lorem ipsum dolor sit amet,craaenean donec pellentes
+quequisquesem,quam ac luctuscursuspellentesque in.pulvinar 
+Lorem ipsum dolor sit amet,craaenean donec pellentesque
+quisquesem,quam acluctuscursuspe
+llentesque in.pulvinar</p> 
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-12" >
+			            <a class="twitter-timeline"  href="https://twitter.com/j3r3my_m" data-widget-id="730009111761432576">Tweets by @j3r3my_m</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+           
+		</div>
+	</div>
+</section>
+</div>
+	</body>
+</html>

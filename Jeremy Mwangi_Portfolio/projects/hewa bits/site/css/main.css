@@ -1,0 +1,517 @@
+
+@font-face{
+		font-weight: normal;
+	    font-style: normal;
+	    font-family: 'moonhouse';
+	    src:url('../fonts/moonhouse.ttf?-8is7zf') format('truetype');
+	    src: local('moonhouse'), local('moonhouse'), url('../fonts/moonhouse.ttf') format('truetype');
+		  
+}
+#container3{
+	background-color: #000000;
+	height: 0 auto;
+}
+
+/*NAVIGATION*/
+.nav{
+	width: 100%;
+	height: 110px; 
+	background: rgba(51, 51, 51, 0.3);
+}
+ li{
+	font-family: 'moonhouse';
+	display: inline;
+	font-size: 25px;
+	color:#fff;
+	padding: 60px;	
+	position: relative;
+	top: 40px;	
+}
+a{
+	color: #fff;
+
+}
+
+/*hover*/
+a.active {
+ color: red;
+ text-decoration: none;
+}
+
+li > a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+ li > a:hover {
+    color:#ff0000; 
+    padding-bottom: 20px;
+    text-decoration: none;
+    margin-bottom: 0px;
+
+ }
+.active {
+    color:#ff0000;
+ }
+
+ li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  text-decoration: none;
+  background-color: #ff0000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+ li > a:hover:before {
+  visibility: visible;
+  padding-top: 2px;
+  text-decoration: none;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+/*logo*/
+ .col-md-2 a img{
+
+ 	margin-top: 10px;
+ }
+
+/*body*/
+
+.col-md-12{
+	width: 100%;
+	height: 970px;
+	padding: 0px;
+	display: visible;
+	position: relative;
+	bottom: 40px;
+	margin-left: 100px;
+
+	 background-image: url(../images/earphones.png);
+	 background-repeat: no-repeat;
+}
+h3{
+	 font-family: 'moonhouse';
+	 font-size: 85px;
+	 margin-top: 530px;
+	 margin-left: 270px;
+	 color:#fff;
+	
+}
+ #paragraph{
+	 font-family: 'Arial';
+	 font-size: 18px;
+	 color:#fff;
+	 margin-top: -20px;
+	  margin-left: 350px;
+}
+/*footer*/
+#mguu{
+	background: rgba(51, 51, 51,);
+	width: 100%;
+	height: 231px;
+    padding-left:160px; 
+
+}
+h4{
+	color:#ff0000;
+	margin-top: 38px;
+	margin-left: 30px;
+	font-size: 25px;
+	font-family: 'Arial';
+}
+.col-md-4 p{
+	font-family: 'Arial';
+	color:#fff;
+	font-size: 18px;
+	margin-left: 30px;
+}
+h6{
+	color:#fff;
+	margin-left: 30px;
+}
+
+
+/*RESPONSIVENESS*/
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1366px) {
+/* Styles */
+ @font-face{
+		font-weight: normal;
+	    font-style: normal;
+	    font-family: 'moonhouse';
+	    src:url('../fonts/moonhouse.ttf?-8is7zf') format('truetype');
+	    src: local('moonhouse'), local('moonhouse'), url('../fonts/moonhouse.ttf') format('truetype');
+		  
+}
+
+/*NAVIGATION*/
+.nav{
+	width: 100%;
+	height: 110px; 
+	background: rgba(51, 51, 51, 0.3);
+}
+ li{
+	font-family: 'moonhouse';
+	display: inline;
+	font-size: 25px;
+	color:#fff;
+	padding: 60px;	
+	position: relative;
+	top: 40px;	
+}
+a{
+	color: #fff;
+
+}
+
+/*hover*/
+a.active {
+ color: red;
+ text-decoration: none;
+}
+
+li > a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+ li > a:hover {
+    color:#ff0000; 
+    padding-bottom: 20px;
+    text-decoration: none;
+    margin-bottom: 0px;
+
+ }
+.active {
+    color:#ff0000;
+ }
+
+ li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  text-decoration: none;
+  background-color: #ff0000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+ li > a:hover:before {
+  visibility: visible;
+  padding-top: 2px;
+  text-decoration: none;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+/*logo*/
+ .col-md-2 a img{
+
+ 	margin-top: 10px;
+ }
+
+/*body*/
+
+.col-md-12{
+	width: 100%;
+	height: 970px;
+	padding: 0px;
+	display: visible;
+	position: relative;
+	bottom: 40px;
+    right: 105px;
+
+	 background-image: url(../images/earphones.png);
+	 background-repeat: no-repeat;
+}
+h3{
+	 font-family: 'moonhouse';
+	 font-size: 85px;
+	 margin-top: 530px;
+	 margin-left: 190px;
+	 color:#fff;
+	
+}
+ #paragraph{
+	 font-family: 'Arial';
+	 font-size: 16px;
+	 color:#fff;
+	 margin-top: -20px;
+	  margin-left: 300px;
+}
+/*footer*/
+#mguu{
+	background: rgba(51, 51, 51,);
+	width: 100%;
+	height: 231px;
+    padding-left:160px; 
+
+}
+h4{
+	color:#ff0000;
+	margin-top: 38px;
+	margin-left: 30px;
+	font-size: 25px;
+	font-family: 'Arial';
+}
+.col-md-4 p{
+	font-family: 'Arial';
+	color:#fff;
+	font-size: 18px;
+	margin-left: 30px;
+}
+h6{
+	color:#fff;
+	margin-left: 30px;
+}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (max-width : 1600px) {
+/* Styles */
+ @font-face{
+		font-weight: normal;
+	    font-style: normal;
+	    font-family: 'moonhouse';
+	    src:url('../fonts/moonhouse.ttf?-8is7zf') format('truetype');
+	    src: local('moonhouse'), local('moonhouse'), url('../fonts/moonhouse.ttf') format('truetype');
+		  
+}
+
+/*NAVIGATION*/
+.nav{
+	width: 100%;
+	height: 110px; 
+	background: rgba(51, 51, 51, 0.3);
+}
+ li{
+	font-family: 'moonhouse';
+	display: inline;
+	font-size: 25px;
+	color:#fff;
+	padding: 60px;	
+	position: relative;
+	top: 40px;	
+}
+a{
+	color: #fff;
+
+}
+
+/*hover*/
+a.active {
+ color: red;
+ text-decoration: none;
+}
+
+li > a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+ li > a:hover {
+    color:#ff0000; 
+    padding-bottom: 20px;
+    text-decoration: none;
+    margin-bottom: 0px;
+
+ }
+.active {
+    color:#ff0000;
+ }
+
+ li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  text-decoration: none;
+  background-color: #ff0000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+ li > a:hover:before {
+  visibility: visible;
+  padding-top: 2px;
+  text-decoration: none;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+/*logo*/
+ .col-md-2 a img{
+
+ 	margin-top: 10px;
+ }
+
+/*body*/
+
+.col-md-12{
+	width: 100%;
+	height: 970px;
+	padding: 0px;
+	display: visible;
+	position: relative;
+	bottom: 50px;
+	margin-left: 320px;
+
+	 background-image: url(../images/earphones.png);
+	 background-repeat: no-repeat;
+}
+h3{
+	 font-family: 'moonhouse';
+	 font-size: 100px;
+	 margin-top: 530px;
+	 margin-left: 100px;
+	 color:#fff;
+	
+}
+ #paragraph{
+	 font-family: 'Arial';
+	 font-size: 17px;
+	 color:#fff;
+	 margin-top: -25px;
+	  margin-left: 270px;
+}
+/*footer*/
+#mguu{
+	background: rgba(51, 51, 51,);
+	width: 100%;
+	height: 231px;
+    padding-left:160px; 
+
+}
+h4{
+	color:#ff0000;
+	margin-top: 38px;
+	margin-left: 30px;
+	font-size: 25px;
+	font-family: 'Arial';
+}
+.col-md-4 p{
+	font-family: 'Arial';
+	color:#fff;
+	font-size: 18px;
+	margin-left: 30px;
+}
+h6{
+	color:#fff;
+	margin-left: 30px;
+}
+}
+
+/*ABOUT US PAGE*/
+#container2{
+	width: 100%;
+	padding: 0px;
+	height: 0 auto;
+	background-color: #000;	
+}
+#about{
+	width: 100%;
+	height: 349px;
+	margin: 0 auto;
+}
+h5{
+	font-family: 'moonhouse';
+	color:#ff0000;
+	font-size: 24px; 
+	font-weight: bold;
+}
+.col-md-8 img{
+	margin-top: 29px;
+}
+#event{
+	width: 100%;
+	height: 375px;
+	margin: 0 auto;
+	
+}
+#event2{
+	position: relative;
+	left: 220px;
+}
+.space{
+	width: 100%;
+	height:20px;
+	margin: 0 auto;
+	
+}
+#mguu img{
+	padding: 10px;
+}
+#mguu img:hover{
+	background-color: #ff0000;
+	border-radius: 10px;
+}
+
+/*CONTACT US PAGE*/
+#contact1{
+	width: 100%;
+	height: 688px;
+	margin: 0 auto;
+	background-image: url(../images/contact2.png);
+
+}
+#contact2{
+
+	
+}
+#forms{
+	width: 100%;
+	height: 250px;
+}
+.form2{
+	margin-right: 70px;
+}
+.col-md-4 img{
+	padding: 20px;
+}
+#lnk img:hover{
+	background-color: #ff0000;
+	border-radius: 10px;
+}
+#im{
+	max-width: 1200px;
+	min-height: 0 auto;
+	margin: 0 auto;
+}
+#rim{
+	max-width: 1200px;
+	min-height: 410px;
+	margin: 0 auto;
+
+}
+#rim2{
+	max-width: 1200px;
+	min-height: 390px;
+	margin: 0 auto;
+}
+#rim3{
+	max-width: 1200px;
+	min-height: 410px;
+	margin: 0 auto;
+
+}
